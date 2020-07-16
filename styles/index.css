@@ -1,0 +1,64 @@
+body #root {
+  padding: 10px;
+}
+body .paper {
+  padding: 2px;
+  text-align: center;
+}
+body .crypto-input-box {
+  margin: 20px 0;
+}
+body .currency-input {
+  max-width: calc(70% - 10px);
+  margin-right: 10px;
+}
+body .table {
+  min-width: 550px;
+}
+body .currency-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 30px;
+}
+body .red-column {
+  animation: background-red-change 15s;
+}
+body .green-column {
+  animation: background-green-change 15s;
+}
+body .row-currency {
+  cursor: pointer;
+}
+body .preloader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+body .converter-typography {
+  line-height: 1.8;
+}
+@media (max-width: 990px) {
+  body .grid-container {
+    justify-content: center;
+  }
+  body .grid-container .crypto-table-grid {
+    max-width: 100%;
+  }
+}
+@keyframes background-red-change {
+  from {
+    background-color: #ffdada;
+  }
+  to {
+    background-color: #ffffff;
+  }
+}
+@keyframes background-green-change {
+  from {
+    background-color: #d8ffc4;
+  }
+  to {
+    background-color: #ffffff;
+  }
+}
