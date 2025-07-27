@@ -1,3 +1,3 @@
 # crypto-converter
 
-https://itpointoflife.github.io/crypto-currencies/
+https://solteax.github.io/crypto-converter/
